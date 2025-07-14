@@ -1,9 +1,9 @@
 import { Routes } from "@angular/router";
-import { ContryPageComponent } from "./pages/country-page/country-page.component";
+import { CountryPageComponent } from "./pages/country-page/country-page.component";
 
-export const contryRoutes: Routes = [
+export const countryRoutes: Routes = [
   {
     path: '',
-    component: ContryPageComponent
+    component: CountryPageComponent
   },
 ]
